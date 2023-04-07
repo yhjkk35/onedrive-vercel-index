@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Spencer's OneDrive",
+  title: "Co's OneDrive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
@@ -56,6 +56,16 @@ module.exports = {
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
   ],
+  contacts: [
+    {
+      platform:'email',
+      link:'mailto:yhjkk35@gmail.com'
+    },
+    {
+      platform:'github',
+      link:'https://github.com/yhjkk35/onedrive-vercel-index'
+      }
+    ]
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
